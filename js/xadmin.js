@@ -113,7 +113,7 @@ $(function () {
         if($(this).children('.sub-menu').length){
             if($(this).hasClass('open')){
                 $(this).removeClass('open');
-                $(this).find('.nav_right').html('&#xe697;');
+                $(this).find('.nav_right').html('&#xe6a5;');
                 $(this).children('.sub-menu').stop().slideUp();
                 $(this).siblings().children('.sub-menu').slideUp();
             }else{
@@ -121,7 +121,7 @@ $(function () {
                 $(this).children('a').find('.nav_right').html('&#xe6a6;');
                 $(this).children('.sub-menu').stop().slideDown();
                 $(this).siblings().children('.sub-menu').stop().slideUp();
-                $(this).siblings().find('.nav_right').html('&#xe697;');
+                $(this).siblings().find('.nav_right').html('&#xe6a5;');
                 $(this).siblings().removeClass('open');
             }
         }else{
