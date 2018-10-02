@@ -18,18 +18,18 @@
 </head>
 <body>
     <!-- 顶部开始 -->
-    <div class="container">
-        <div class="logo"><a href="./index.html">OS-Q 后台管理</a></div>
+    <div class="container">      
         <div class="left_open">
             <i title="展开左侧栏" class="iconfont">&#xe699;</i>
         </div>
+        <div class="logo"><a href="./index.html">OS-Q后台管理系统</a></div>
         <ul class="layui-nav left fast-add" lay-filter="">
           <li class="layui-nav-item">
-            <a href="javascript:;">+添加</a>
+            <a href="javascript:;">+新增</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
               <dd><a onclick="x_admin_show('资讯','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>设备</a></dd>
               <dd><a onclick="x_admin_show('图片','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>应用</a></dd>
-               <dd><a onclick="x_admin_show('用户','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>管理员</a></dd>
+              <dd><a onclick="x_admin_show('用户','view/admin-list.html')"><i class="iconfont">&#xe6b8;</i>角色</a></dd>
             </dl>
           </li>
         </ul>
@@ -195,13 +195,13 @@
                     <li>
                         <a _href="view/search-near.html">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>附近查询</cite>
+                            <cite>附近搜索</cite>
                         </a>
                     </li >
                     <li>
                         <a _href="view/search-city.html">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>城市查询</cite>
+                            <cite>地域查询</cite>
                         </a>
                     </li >
                 </ul>
@@ -267,7 +267,7 @@
           </ul>
           <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                <iframe src='./welcome.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                <iframe src='view/main.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
             </div>
           </div>
         </div>
