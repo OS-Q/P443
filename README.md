@@ -1,8 +1,4 @@
-# web: OS-Q (www.OS-Q.com)
-
-[![sites](qitas/qitas.png)](http://www.os-q.com)
-[![sites](qitas/heretang.png)](http://www.os-q.com)
-[![sites](qitas/yimi.png)](http://www.os-q.com)
+# [webX](https://github.com/qitas/webX) 
 
 ---
 
@@ -12,14 +8,10 @@
 
 ## 组成
 
-- docker: 网站搭建和运行环境
-- html: 前后端的静态页面
-- db: 数据库
-
-## 说明
-
-2018-10-15: 规范该仓库
+- html: 静态页面
 
 ---
 
 ## 为锻造最美之器
+
+[![sites](qitas/qitas.png)](http://www.os-q.com)
