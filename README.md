@@ -1,17 +1,9 @@
-# [webX](https://github.com/qitas/webX) 
+# [web tails](https://github.com/qitas/web-tails) 
 
----
+### [工程简介](https://github.com/qitas/web-tails/wiki) 
 
-## 描述
+后端采用X-admin的轻量级前端后台管理框架
 
-后端采用X-admin的轻量级前端后台管理框架，用于管理物联网设备的接入和控制
-
-## 组成
-
-- html: 静态页面
-
----
+[![sites](http://182.61.61.133//resources/head.png)](http://www.qitas.cn)
 
 ## 为锻造最美之器
-
-[![sites](qitas/qitas.png)](http://www.os-q.com)
