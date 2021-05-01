@@ -1,0 +1,25 @@
+{
+    "build": {
+        "core": "arduino",
+        "cpu": "cortex-m4",
+        "extra_flags": "-DSTM32F3xx -DSTM32F303xE",
+        "f_cpu": "72000000L",
+        "mcu": "stm32f303zet6",
+        "product_line": "STM32F303xE",
+        "variant": "HWLogic_PLC"
+    },
+    "frameworks": ["arduino"],
+    "name": "HWLogic PLC",
+    "upload": {
+      "maximum_ram_size": 65536,
+      "maximum_size": 524288,
+      "protocol": "serial",
+      "protocols": [
+        "serial",
+        "stlink",
+        "usb-dfu"
+      ]
+    },
+    "url": "http://hwlogic.eu",
+    "vendor": "HWLogic"
+  }

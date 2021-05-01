@@ -1,0 +1,55 @@
+{
+    "name": "P45",
+    "title": "HWLogic",
+    "description": "HWLogic development platform",
+    "homepage": "https://hwlogic.eu",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://git.hwlogic.eu/hwlogic_plc1/hwlogic-platform.git"
+    },
+    "version": "1.0.0",
+    "frameworks": {
+        "arduino": {
+            "package": "framework-hwlogic",
+            "script": "builder/frameworks/arduino.py",
+            "description": "Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences",
+            "homepage": "http://arduino.cc/en/Reference/HomePage",
+            "title": "Arduino"
+          }
+    },
+    "packages": {
+      "toolchain-gccarmnoneeabi": {
+        "type": "toolchain",
+        "version": "~1.90201.191206"
+      },
+      "tool-hwlogic": {
+        "type": "uploader",
+        "version": ">=1.0.0"
+      },
+      "framework-hwlogic": {
+        "type": "framework",
+        "version": ">=1.0.0"
+      },
+      "framework-cmsis": {
+        "type": "framework",
+        "owner": "platformio",
+        "version": "~2.50501.0"
+      },
+      "framework-cmsis-stm32f3": {
+        "type": "framework",
+        "version": "~2.3.4"
+      },
+      "tool-dfuutil": {
+        "type": "uploader",
+        "version": "~1.9.190708"
+      },
+      "tool-ldscripts-ststm32": {
+        "version": "~0.1.0"
+      }
+    },
+    "pythonPackages": {
+      "pypi-pkg-1": "1.2.3",
+      "pypi-pkg-2": ">=2.3, <3"
+    }
+  }
